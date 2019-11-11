@@ -1,4 +1,4 @@
-class DAObet < Formula
+class Daobet < Formula
 
    homepage "https://github.com/DaoCasino/DAObet"
    revision 0

@@ -1,7 +1,7 @@
 class Daobet < Formula
 
    homepage "https://github.com/DaoCasino/DAObet"
-   revision 0
+   revision 1
    url "https://github.com/DaoCasino/DAObet/releases/download/v1.0.0/daobet-1.0.0.mojave.bottle.tar.gz"
    version "1.0.0"
 
@@ -17,6 +17,7 @@ class Daobet < Formula
    bottle do
       root_url "https://github.com/DaoCasino/DAObet/releases/download/v1.0.0"
       sha256 "70b2471b2d6b5672f31a7f4d61a6a213cae4041b9d73776562882f2c4595c755" => :mojave
+      sha256 "70b2471b2d6b5672f31a7f4d61a6a213cae4041b9d73776562882f2c4595c755" => :high_sierra
    end
    def install
       raise "Error, only supporting binary packages at this time"

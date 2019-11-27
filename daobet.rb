@@ -1,7 +1,7 @@
 class Daobet < Formula
 
    homepage "https://github.com/DaoCasino/DAObet"
-   revision 1
+   revision 2
    url "https://github.com/DaoCasino/DAObet/releases/download/v1.0.0/daobet-1.0.0.mojave.bottle.tar.gz"
    version "1.0.0"
 
@@ -11,7 +11,7 @@ class Daobet < Formula
    depends_on "gettext"
    depends_on "openssl"
    depends_on "libusb"
-   depends_on :macos => :mojave
+   depends_on :macos => [:high_sierra, :mojave]
    depends_on :arch =>  :intel
 
    bottle do
